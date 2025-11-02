@@ -1,0 +1,165 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: pham san, phamsandepzai, LIC=KRMW3-A6BCF-LQR0Q-NF0EX-AHNET-D283A
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\RTOS\RTOS_Evengroup\test.uvprojx
+Project File Date:  11/02/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+Note: source file 'C:\Users\G15 5525\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\misc.c' - object file renamed from '.\Objects\misc.o' to '.\Objects\misc_1.o'.
+Note: source file 'C:\Users\G15 5525\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_rcc.c' - object file renamed from '.\Objects\stm32f10x_rcc.o' to '.\Objects\stm32f10x_rcc_1.o'.
+Note: source file 'C:\Users\G15 5525\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\misc.c' - object file renamed from '.\Objects\misc.o' to '.\Objects\misc_1.o'.
+Note: source file 'C:\Users\G15 5525\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_rcc.c' - object file renamed from '.\Objects\stm32f10x_rcc.o' to '.\Objects\stm32f10x_rcc_1.o'.
+assembling startup_stm32f10x_md.s...
+compiling misc.c...
+compiling misc.c...
+compiling os_systick.c...
+compiling main.c...
+compiling stm32f10x_gpio.c...
+compiling clib_os.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling system_stm32f10x.c...
+compiling freertos_evr.c...
+compiling list.c...
+compiling event_groups.c...
+compiling cmsis_os2.c...
+compiling port.c...
+compiling heap_4.c...
+compiling timers.c...
+compiling queue.c...
+compiling tasks.c...
+linking...
+.\Objects\test.axf: Warning: L6304W: Duplicate input file .\objects\misc_1.o ignored.
+.\Objects\test.axf: Warning: L6304W: Duplicate input file .\objects\stm32f10x_rcc_1.o ignored.
+Program Size: Code=11072 RO-data=292 RW-data=56 ZI-data=12992  
+Finished: 0 information, 2 warning and 0 error messages.
+".\Objects\test.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.2.0.pack
+                ARM.CMSIS.6.2.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: OS Tick Version: 1.0.1
+   * Component: RTOS2 Version: 2.3.0
+   * Component: CORE Version: 6.1.1
+   * Component: SysTick Version: 1.0.5
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-FreeRTOS.11.2.0.pack
+                ARM.CMSIS-FreeRTOS.11.2.0
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: Config Variant: CMSIS RTOS2 Version: 11.2.0
+   * Component: Core Variant: Cortex-M Version: 11.2.0
+   * Component: Event Groups Version: 11.2.0
+   * Component: Heap Variant: Heap_4 Version: 11.2.0
+   * Component: Timers Version: 11.2.0
+   * Component: FreeRTOS Variant: Cortex-M Version: 11.2.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+   * Component: Framework Version: 3.6.0
+   * Component: RCC Version: 3.6.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\RTOS
+  .\RTE\_Target_1
+  C:\Users\G15 5525\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include
+  C:\Users\G15 5525\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include
+  C:\Users\G15 5525\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM3
+  C:\Users\G15 5525\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include
+  C:\Users\G15 5525\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\RTOS2\Include
+  C:\Users\G15 5525\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+  C:\Users\G15 5525\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:OS Tick:1.0.1 (API)
+      Include file:  CMSIS\RTOS2\Include\os_tick.h
+
+   * Component: ::CMSIS:RTOS2:2.3.0 (API)
+      Include file:  CMSIS\RTOS2\Include\cmsis_os2.h
+
+   * Component: ARM.FreeRTOS::RTOS:Config:CMSIS RTOS2:11.2.0
+      Include file:  CMSIS\RTOS2\FreeRTOS\Config\FreeRTOSConfig.h
+
+   * Component: ARM.FreeRTOS::RTOS:Core:Cortex-M:11.2.0
+      Source file:   Source\list.c
+      Source file:   Source\tasks.c
+      Include file:  Source\include\semphr.h
+      Source file:   Source\portable\GCC\ARM_CM3\port.c
+      Include file:  Source\include\FreeRTOS.h
+      Include file:  Source\include\queue.h
+      Include file:  Source\include\task.h
+      Source file:   Source\queue.c
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
+
+   * Component: ARM.FreeRTOS::RTOS:Event Groups:11.2.0
+      Source file:   Source\event_groups.c
+      Include file:  Source\include\event_groups.h
+
+   * Component: ARM.FreeRTOS::RTOS:Heap:Heap_4:11.2.0
+      Source file:   Source\portable\MemMang\heap_4.c
+
+   * Component: ARM.FreeRTOS::RTOS:Timers:11.2.0
+      Include file:  Source\include\timers.h
+      Source file:   Source\timers.c
+
+   * Component: ARM::CMSIS:CORE:6.1.1
+
+   * Component: ARM::CMSIS:OS Tick:SysTick:1.0.5
+      Source file:   CMSIS\RTOS2\Source\os_systick.c
+
+   * Component: ARM::CMSIS:RTOS2:FreeRTOS:Cortex-M:11.2.0
+      Include file:  CMSIS\RTOS2\FreeRTOS\Include\freertos_mpool.h
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\cmsis_os2.c
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\clib_os.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:3.6.0
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+      Include file:  Device\StdPeriph_Driver\inc\misc.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.6.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
